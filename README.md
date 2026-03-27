@@ -108,11 +108,11 @@ The final filter for selecting the travel squad and issuing the stadium "Go" sig
 
 | Strategy | Prompts | Why chosen |
 |----------|---------|------------|
-| RACE framework (Role–Action–Context–Evaluation) | P01, P03, P07 | Consistent structure; comparable outputs for A/B testing |
-| Grounding constraint ("using only...") | P04, P08 | Prevents hallucination in factual/legal contexts |
-| JSON output format | P06 | Machine-readable for CRM/API integration |
-| Word/format limits | All | Ensures output is production-ready without heavy editing |
-| Self-critique step | P04 | Model reviews its own output for unsupported inferences |
+| Image generation | P01 | Ensures output is visually ready without heavy editing |
+| RACE framework (Role–Action–Context–Evaluation) | All | Consistent structure; comparable outputs for A/B testing |
+| Grounding constraint ("using only...") | P02, P03, P04, P05, P06, P07, P08 | Prevents hallucination in factual/legal contexts |
+| JSON output format | P02, P03, P04, P05, P06, P07, P08 | Machine-readable for CRM/API integration |
+| Self-critique step | P02, P03, P04 | Model reviews its own output for unsupported inferences |
 
 ---
 
@@ -123,16 +123,17 @@ All prompt versions are saved in this repository. See individual prompt files fo
 
 | Prompt | Versions | Key improvement |
 |--------|----------|-----------------|
-| P01 | v1.0 → v1.2 | Added RACE role + word limit; edit time 14 min → 2 min |
-| P04 | v1.0 → v1.1 | Grounding constraint added after v1.0 hallucinated causes |
-| P06 | v1.0 → v1.2 | Constrained category list added; JSON output enforced |
+| P01 | v1.0 → v1.2 | Added RACE role; edit time 14 min → 2 min |
+| P02 | v1.0 → v1.1 | Grounding constraint added after v1.0 hallucinated causes |
+| P04 | v1.0 → v1.21 | Grounding constraint added after v1.0 missed data |
 
 ---
 
 ## 📖 References
 
 - Anthropic (2025). *Prompt Engineering Overview.* docs.claude.ai
-- Kartaca (2026). *Standardizing Enterprise Intelligence with a Corporate Prompt Library.*
-- MIT Sloan (2025). *Prompt Engineering is So 2024 — Try These Prompt Templates Instead.*
-- Microsoft (2025). *Get Started with Prompt Library — Copilot Studio.*
-- VE3 Global (2025). *10 Key Elements of a Prompt Library for Enterprise Tasks.*
+- GitHub (2025). *Get Started with Prompt Library.*
+- Google (2026). *Prompt Drafting.*
+- One Drive (2026). *Dr. Mills - prompt-library-template*
+- Barca Innovation Hub (2025). *Digital Twins at Barca — AI to prevent injuries.*
+- SportPro (2026). *How digital twins are recreating sport in the virtual world.*
