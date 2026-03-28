@@ -77,7 +77,7 @@ prompt-library/
 | P07 | The Tactical Analysis | Analytic | High | High | ✅ Tested |
 | P08 | The Squad List | Operational | High | Medium | ✅ Tested |
 | P09 | The Dashboard | Operational | Very High | Medium | ✅ Tested |
-| P10 | The Starting XI | Executive | ??? | ??? | 🔄 In progress |
+| P10 | The Starting XI | Executive | High | Medium | ✅ Tested |
 
 **Automation levels:** Very High / High / Medium / Low  
 **Risk levels:** High (always needs human review) / Medium (spot-check recommended) / Low (can automate with audit)
@@ -113,8 +113,7 @@ The final filter for selecting the travel squad and issuing the stadium "Go" sig
 | Grounding constraint ("using only...") | P02, P03, P04, P05, P06, P07, P08 | Prevents hallucination in factual/legal contexts |
 | JSON output format | P02, P03, P04, P05, P06, P07, P08 | Machine-readable for CRM/API integration |
 | Self-critique step | P02, P03, P04 | Model reviews its own output for unsupported inferences |
-| HTML output format | P09 | Best method to display the Dynamic Dashboard |
-
+| HTML output format | P09, P10 | Best method to display text, images and dynamic features |
 
 ---
 
