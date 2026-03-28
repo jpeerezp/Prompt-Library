@@ -113,6 +113,8 @@ The final filter for selecting the travel squad and issuing the stadium "Go" sig
 | Grounding constraint ("using only...") | P02, P03, P04, P05, P06, P07, P08 | Prevents hallucination in factual/legal contexts |
 | JSON output format | P02, P03, P04, P05, P06, P07, P08 | Machine-readable for CRM/API integration |
 | Self-critique step | P02, P03, P04 | Model reviews its own output for unsupported inferences |
+| HTML output format | P09 | Best method to display the Dynamic Dashboard |
+
 
 ---
 
