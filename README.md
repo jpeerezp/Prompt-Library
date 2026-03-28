@@ -76,8 +76,8 @@ prompt-library/
 | P06 | The Readiness Convergence | Analytic | High | Medium | ✅ Tested |
 | P07 | The Tactical Analysis | Analytic | High | High | ✅ Tested |
 | P08 | The Squad List | Operational | High | Medium | ✅ Tested |
-| P09 | The Dashboard | Operational | High | ??? | 🔄 In progress |
-| P10 | The Starting XI | Operational | High | ??? | 🔄 In progress |
+| P09 | The Dashboard | Operational | Very High | Medium | ✅ Tested |
+| P10 | The Starting XI | Executive | ??? | ??? | 🔄 In progress |
 
 **Automation levels:** Very High / High / Medium / Low  
 **Risk levels:** High (always needs human review) / Medium (spot-check recommended) / Low (can automate with audit)
